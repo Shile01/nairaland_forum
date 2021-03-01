@@ -2,61 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nairaland Modified</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <title>Nairaland Nigerian Forum</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <div class="container">
-      <header>
-        <div id="branding">
-          <h1><span>N</span>airaland Forum</h1>
-        </div>
-        <p>
-          Welcome Guest: Join Nairaland/LOGIN/Trending/New<br />
+      <!-- HEADER AND PAGE STATISTICS -->
+      <div class="head">
+        <h1 class="branding"><span class="strike">N</span>airaland Forum</h1>
+        <p class="intro-info">
+          Welcome Guest: <a href="">Join Nairaland/Login</a> /
+          <a href="">Trending</a> / <a href="">New</a>
+        </p>
+        <p class="page-stat">
           Stats: 2,356,653, members:5,453,654, Date: Friday, July 24, 2020,
           12:54 AM
         </p>
-        <form class="my-form" action="">
-          <button class="button" type="search">SEARCH</button>
-          <input type="text" placeholder="search" />
-        </form>
-      </header>
-      <div class="box-2">
-        <div class="green-cards">
+        <div class="form-tab">
+          <button class="button">Search</button>
+          <input type="search" placeholder="Search" />
+        </div>
+      </div>
+
+      <!-- CARD SECTION -->
+      <section class="info-card">
+        <div class="card green-card">
           <h2>NAIRALAND NIGERIAN FORUM</h2>
         </div>
-        <div class="white-cards">
+        <div class="card white-cards">
           <p>
             Nairaland/General: Politics, Crime, Romance, Jobs/Vacancies,
             Careers, Business, Investment, NYSC, Education, Autos, Cars, Talk,
-            Properties, Health, Travel, Family, Culture, Religion<br />
-            Food, Diaries, Nairaland Ads, Pets, Agriculture
+            Properties, Health, Travel, Family, Culture, Religion, Food,
+            Diaries, Nairaland Ads, Pets, Agriculture
           </p>
         </div>
-        <div class="green-cards">
+        <div class="card green-card">
           <p>
             Entertainment: Jokes Etc, TV/Movies, Music/Radio, Celebrities,
             Fashion, Events, Sports, Gaming, Forum Games, Literature
           </p>
         </div>
-        <div class="white-cards">
+        <div class="card white-cards">
           <p>
             Science/Technology: Programming, Webmasters, Computers, Phones, Art,
             Graphics & Video, Technology Market
           </p>
         </div>
-      </div>
-      <section id="showcase">
-        <h2>Targeted ADS</h2>
-        <p>
-          Market Your Products and Services. Place your ads here. Click the
-          button below to know how
-        </p>
-        <a class="btn" href="">Click</a>
-        </form>
       </section>
-      <article class="box-3">
+
+      <!-- SHOWCASE SECTION -->
+      <section class="showcase">
+        <div class="inner-div">
+          <h2>Targeted ADS</h2>
+          <p>
+            Market Your Products and Services. Place your ads here. Click the
+            button below to know how
+          </p>
+          <a class="btn" href="">Click</a>
+        </div>
+        8k
+      </section>
+
+      <!-- MAIN ARTICLE PAGE -->
+      <article class="main">
         <h2>Recent News</h2>
         <p>
           Welcome to Nairaland, We bring you updates from around the world,
@@ -68,51 +79,123 @@
           before its get to the front page. To comment on a post or content,
           register/login then you can proceed to submit your content
         </p>
+        <div id="loader" class="loader">
+          <div class="progress">
+            <img src="assets/images/ajax-loader.gif" alt="" />
+          </div>
+        </div>
+        <div class="blog-posts" id="blog">
+          <!-- <a href="" class="blog__post card">
+            <img src="assets/images/keyboard.jpg" alt="" />
+            <p class="news__peek">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              itaque vero cupiditate repudiandae quo, eligendi ducimus at
+              distinctio inventore tempora ad. Ad quod nesciunt reiciendis!
+            </p>
+          </a>
+          <a href="" class="blog__post card">
+            <img src="assets/images/keyboard.jpg" alt="" />
+            <p class="news__peek">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              itaque vero cupiditate repudiandae quo, eligendi ducimus at
+              distinctio inventore tempora ad. Ad quod nesciunt reiciendis!
+            </p>
+          </a>
+          <a href="" class="blog__post card">
+            <img src="assets/images/keyboard.jpg" alt="" />
+            <p class="news__peek">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              itaque vero cupiditate repudiandae quo, eligendi ducimus at
+              distinctio inventore tempora ad. Ad quod nesciunt reiciendis!
+            </p>
+          </a>
+          <a href="" class="blog__post card">
+            <img src="assets/images/keyboard.jpg" alt="" />
+            <p class="news__peek">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
+              itaque vero cupiditate repudiandae quo, eligendi ducimus at
+              distinctio inventore tempora ad. Ad quod nesciunt reiciendis!
+            </p>
+          </a> -->
+        </div>
       </article>
     </div>
-  </body>
-  <footer>
-    <div class="container">
-      <div class="block">
-        <h3>WELCOME TO NAIRALAND</h3>
-        <p>
-          The official no 1 ogbonge forum in Africa. Updated news, Breaking news
-          plus Lots of gists about celebs, musicians and nollywood actors.
-        </p>
-      </div>
-      <div class="block categories">
-        <h3>NEWS</h3>
-        <ul>
-          <li><a href="#">Local</a></li>
-          <li><a href="#">International</a></li>
-          <li><a href="#">Politics</a></li>
-          <li><a href="#">Sports</a></li>
-          <li><a href="#">Lifestyle</a></li>
-          <li><a href="#">Entertainment</a></li>
-        </ul>
-      </div>
-      <div class="block download">
-        <h3>DOWNLOAD NAIRALAND APP</h3>
-        <p>
-          Download our app on google and ios app stores. Feel free to use the
-          comment box at the comment section
-        </p>
-        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-        <form action="#">
-          <div class="my-form-2">
-            <input type="email" placeholder="Enter Email" />
-            <input type="submit" value="Subscribe" />
+
+    <!-- FOOTER AND CATEGORIES -->
+    <footer class="footer">
+      <div class="container">
+        <div class="hold">
+          <div class="block">
+            <h3>WELCOME TO NAIRALAND</h3>
+            <p>
+              The official no 1 ogbonge forum in Africa. Updated news, Breaking
+              news plus Lots of gists about celebs, musicians and nollywood
+              actors.
+            </p>
           </div>
-        </form>
-        <h3 id="follow">FOLLOW US</h3>
+          <div class="block categories">
+            <h3>NEWS</h3>
+            <ul class="news__categories">
+              <li><a href="#" class="news__category">Local</a></li>
+              <li class="news__category">
+                <a href="#" class="news__category">International</a>
+              </li>
+              <li class="news__category">
+                <a href="#" class="news__category">Politics</a>
+              </li>
+              <li class="news__category">
+                <a href="#" class="news__category">Sports</a>
+              </li>
+              <li class="news__category">
+                <a href="#" class="news__category">Lifestyle</a>
+              </li>
+              <li class="news__category">
+                <a href="#" class="news__category">Entertainment</a>
+              </li>
+            </ul>
+          </div>
+          <div class="block download">
+            <h3>DOWNLOAD NAIRALAND APP</h3>
+            <p>
+              Download our app on google and ios app stores. Feel free to use
+              the comment box at the comment section
+            </p>
+            <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+            <form action="#">
+              <div class="my-form-2">
+                <input type="email" placeholder="Enter Email" />
+                <input type="submit" value="Subscribe" />
+              </div>
+            </form>
+            <h3 id="follow">FOLLOW US</h3>
+            <div class="follow_link">
+              <li class="follow fb">
+                <img src="assets/images/icon_fb.svg" alt="Facebook" />
+              </li>
+              <li class="follow in">
+                <img src="assets/images/linkedin.png" alt="LinkedIn" />
+              </li>
+              <li class="follow tw">
+                <img src="assets/images/icon_tw.svg" alt="Twitter" />
+              </li>
+              <li class="follow mail">
+                <img src="assets/images/mail-box.png" alt="" />
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright&copy; All rights reserved | Designed using Vanilla HTML,
+            CSS and JavaScript CSS by
+            <a href="https://github.com/Shile01" class="gh-link"
+              >Khalid Opoola</a
+            >
+          </p>
+        </div>
       </div>
-      <div class="clear"></div>
-      <div class="copyright">
-        <p>
-          Copyright &copy; All rights reserved | Designed using pure HTML and
-          CSS by Ola
-        </p>
-      </div>
-    </div>
-  </footer>
+    </footer>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
 </html>
